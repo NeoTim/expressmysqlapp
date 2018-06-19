@@ -2,7 +2,7 @@ const Sequelize = require('sequelize');
 
 class Connection{
     constructor(){
-        this.sequelize = new Sequelize('Pomelo', 'root', '123456',{
+        this.sequelize = new Sequelize('Pomelo', 'pomelo', '123456',{
             host: 'db',
             port: 3306,
             dialect: 'mysql',
