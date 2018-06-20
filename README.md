@@ -37,3 +37,10 @@ services:
       - /usr/src/app/node_modules // npm install worked!
 
 ```
+
+## start 
+
+```
+docker-compose up --build
+
+```
